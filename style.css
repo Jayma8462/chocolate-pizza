@@ -1,28 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 .navbar {
   margin-left: auto;
   margin-right: auto;
-  width: 905px;
+  width: 901px;
   height: 42px;
   padding-top: 15px;
   float: center;
 }
-.logo {
-  height: auto;
-  width: auto;
+.logo, .logoText {
   margin-left: 5px;
   margin-right: 5px;
   float: left;
 }
-.logoText {
-  height: 42px;
-  width: auto;
-  margin-left: 5px;
-  margin-right: 5px;
-  float: left;
-}
-#bigText {
-  font-family: 'Dancing Script', cursive;
+.logoText #bigText {
+  font-family: 'Dancing Script';
   font-size: 25px;
   font-weight: bold;
   margin: 0px;
@@ -30,6 +22,12 @@
 #smallText {
   font-family: sans-serif;
   font-size: 10px;
+  margin: 0px;
+  opacity: 0.5;
+}
+.titleOfProduct #bigText {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 30px;
   margin: 0px;
 }
 .socialMedia {
@@ -51,9 +49,8 @@
 }
 hr {
   height: 15px;
-  width: 905px;
+  width: 901px;
   background: url(photos/hr-11.png) repeat-x 0 0;
-  border: 0px;
   margin-top: 15px;
   margin-bottom: 0px;
 }
@@ -62,46 +59,33 @@ hr {
   margin-right: auto;
   width: 905px;
   height: auto;
-  border: 1px solid black;
 }
 .title {
-  margin-top: 60px;
-  border: 1px solid black;
+  margin-top: 45px;
 }
-.titleOfProduct {
-  height: 60px;
-  width: 300px;
-  border: 1px solid black;
-}
-.titleOfProductText {
-  height: 13px;
-  width: 300px;
-  border: 1px solid black;
+.printIcon, .printText {
+  float: right;
+  margin-top: -15px;
 }
 .printIcon {
-  height: 13px;
-  width: 10px;
-  float: right;
-  margin-top: -15px;
-  border: 1px solid black;
-}
-.printText {
-  height: 13px;
-  width: 20px;
-  float: right;
-  margin-top: -15px;
-  border: 1px solid black;
+  margin-right: 30px;
 }
 .photoOfProduct {
-  height: 603px;
-  width: 903px;
   margin-top: 30px;
-  border: 1px solid black;
 }
 .photoText {
-  height: 30px;
   width: auto;
-  border: 1px solid black;
+  text-indent: 30px;
+  font-size: 19px;
+}
+.ingred {
+  background-image: url("Photos/list-bg.png");
+}
+.ingrediants, .ingrediants2 {
+  float: left;
+  margin-bottom: 15px;
+  margin-left: 60px;
+  margin-right: 45px;
 }
 .footer {
   margin-left: auto;
@@ -109,25 +93,38 @@ hr {
   margin-top: 15px;
   width: 905px;
   height: 73px;
-  border: 1px solid black;
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.authorPhoto {
-  height: 71px;
-  width: 68px;
-  border: 1px solid black;
+.authorPhoto, .authorText {
   float: left;
 }
-.authorText {
-  height: 71px;
-  width: 40px;
-  border: 1px solid black;
-  float: left;
+.authorText #name {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+}
+.authorText #statement {
+  font-size: 20px;
+  margin: 0px;
 }
 .shareRecipeButton {
-  height: 71px;
-  width: 90px;
-  border: 1px solid black;
   float: left;
+  text-align: center;
+}
+button {
+  margin-left: 20px;
+  width: 200px;
+  height: 40px;
+  background: red;
+  color: white;
+  font-size: 18px;
+}
+.copyright {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.copyright p {
+  opacity: 0.5;
 }
