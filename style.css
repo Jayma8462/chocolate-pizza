@@ -5,7 +5,6 @@
   height: 42px;
   border: 1px solid black;
   padding-top: 15px;
-  padding-bottom: 15px;
   float: center;
 }
 .logo {
@@ -16,7 +15,7 @@
   margin-right: 5px;
   float: left;
 }
-.logotext {
+.logoText {
   height: 42px;
   width: 45px;
   border: inherit;
@@ -24,19 +23,19 @@
   margin-right: 5px;
   float: left;
 }
-.socialmedia {
+.socialMedia {
   height: 42px;
   border: inherit;
   float: right;
 }
-.facebook, .twitter, .googleplus, .instagram, .flickr, .pintrest, .email {
+.facebook, .twitter, .googlePlus, .instagram, .flickr, .pintrest, .email {
   height: 26px;
   width: 26px;
   border: inherit;
   float: left;
   margin-right: 2px;
 }
-.rssfeed {
+.rssFeed {
   height: 26px;
   width: 26px;
   border: inherit;
@@ -49,48 +48,80 @@ hr {
   width: 905px;
   background: url(photos/hr-11.png) repeat-x 0 0;
   border: 0px;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-bottom: 0px;
 }
 .main {
   margin-left: auto;
   margin-right: auto;
   width: 905px;
-  height: 1000px;
+  height: auto;
   border: 1px solid black;
 }
 .title {
   margin-top: 60px;
   border: 1px solid black;
 }
-.titleofproduct {
+.titleOfProduct {
   height: 60px;
   width: 300px;
   border: 1px solid black;
 }
-.titleofproducttext {
+.titleOfProductText {
   height: 13px;
   width: 300px;
   border: 1px solid black;
 }
-.printicon {
+.printIcon {
   height: 13px;
   width: 10px;
   float: right;
+  margin-top: -15px;
   border: 1px solid black;
 }
-.printtext {
+.printText {
   height: 13px;
   width: 20px;
   float: right;
+  margin-top: -15px;
+  border: 1px solid black;
+}
+.photoOfProduct {
+  height: 603px;
+  width: 903px;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+.photoText {
+  height: 30px;
+  width: auto;
   border: 1px solid black;
 }
 .footer {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
   width: 905px;
-  height: auto;
+  height: 73px;
   border: 1px solid black;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.authorPhoto {
+  height: 71px;
+  width: 68px;
+  border: 1px solid black;
+  float: left;
+}
+.authorText {
+  height: 71px;
+  width: 40px;
+  border: 1px solid black;
+  float: left;
+}
+.shareRecipeButton {
+  height: 71px;
+  width: 90px;
+  border: 1px solid black;
+  float: left;
 }
