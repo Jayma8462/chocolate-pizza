@@ -1,44 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 .navbar {
   margin-left: auto;
   margin-right: auto;
   width: 905px;
   height: 42px;
-  border: 1px solid black;
   padding-top: 15px;
   float: center;
 }
 .logo {
-  height: inherit;
-  width: 45px;
-  border: inherit;
+  height: auto;
+  width: auto;
   margin-left: 5px;
   margin-right: 5px;
   float: left;
 }
 .logoText {
   height: 42px;
-  width: 45px;
-  border: inherit;
+  width: auto;
   margin-left: 5px;
   margin-right: 5px;
   float: left;
 }
+#bigText {
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+}
+#smallText {
+  font-family: sans-serif;
+  font-size: 10px;
+  margin: 0px;
+}
 .socialMedia {
   height: 42px;
-  border: inherit;
   float: right;
 }
 .facebook, .twitter, .googlePlus, .instagram, .flickr, .pintrest, .email {
   height: 26px;
   width: 26px;
-  border: inherit;
   float: left;
   margin-right: 2px;
 }
 .rssFeed {
   height: 26px;
   width: 26px;
-  border: inherit;
   float: left;
   margin-right: 2px;
   margin-left: 5px;
